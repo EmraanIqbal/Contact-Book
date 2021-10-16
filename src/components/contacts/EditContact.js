@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
 import { getContact, updateContact } from "../../actions/contactAction";
-import AddContact from "./AddContact";
 
 const EditContact = () => {
   const contact = useSelector((state) => state.contact.contact);
