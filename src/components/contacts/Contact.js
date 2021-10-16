@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { deleteContact } from "../../actions/contactAction";
 
 const Contact = ({ contact, selectAll }) => {
-  //  console.log({ props });
   const { name, phone, email, id } = contact;
   const dispatch = useDispatch();
   return (
