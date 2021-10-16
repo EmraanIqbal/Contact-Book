@@ -5,8 +5,6 @@ const AddContact = () => {
   const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");
 
-  // let history = useHistory();
-
   const submithandler = (e) => {
     console.log(name, mobile, email);
     e.preventDefault();
