@@ -8,7 +8,6 @@ const AddContact = () => {
   const submithandler = (e) => {
     console.log(name, mobile, email);
     e.preventDefault();
-    // history.push("/");
   };
 
   return (
